@@ -4,7 +4,7 @@ namespace HR.LeaveManagement.BlazorUI.Models.LeaveTypes;
 
 public class LeaveTypeViewModel
 {
-    public Guid ID { get; set; }
+    public Guid Id { get; set; }
 
     [Required]
     public string Name { get; set; }
