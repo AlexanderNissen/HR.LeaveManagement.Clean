@@ -1,4 +1,6 @@
-﻿namespace HR.LeaveManagement.Application.Identity;
+﻿using HR.LeaveManagement.Application.Models.Identity;
+
+namespace HR.LeaveManagement.Application.Identity;
 
 public interface IAuthService
 {
