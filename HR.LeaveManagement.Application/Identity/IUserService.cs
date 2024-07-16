@@ -2,7 +2,7 @@
 
 namespace HR.LeaveManagement.Application.Identity;
 
-public interface IUsersService
+public interface IUserService
 {
     Task<List<Employee>> GetEmployees();
 
