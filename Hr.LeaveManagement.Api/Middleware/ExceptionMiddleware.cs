@@ -45,6 +45,7 @@ public class ExceptionMiddleware
                 break;
 
             case NotFoundException notFoundException:
+                statusCode = HttpStatusCode.NotFound;
                 problem = new CustomProblemDetails
                 {
                     Title = notFoundException.Message,

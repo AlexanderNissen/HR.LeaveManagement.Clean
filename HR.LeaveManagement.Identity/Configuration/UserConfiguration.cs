@@ -17,7 +17,7 @@ public class UserConfiguration : IEntityTypeConfiguration<ApplicationUser>
                 Email = "admin@localhost.com",
                 FirstName = "System",
                 LastName = "Admin",
-                Username = "admin@localhost.com",
+                UserName = "admin@localhost.com",
                 NormalizedUserName = "ADMIN@LOCALHOST.COM",
                 PasswordHash = hasher.HashPassword(null, "P@ssword1"),
                 EmailConfirmed = true
@@ -28,7 +28,7 @@ public class UserConfiguration : IEntityTypeConfiguration<ApplicationUser>
                 Email = "user@localhost.com",
                 FirstName = "System",
                 LastName = "User",
-                Username = "user@localhost.com",
+                UserName = "user@localhost.com",
                 NormalizedUserName = "USER@LOCALHOST.COM",
                 PasswordHash = hasher.HashPassword(null, "P@ssword1"),
                 EmailConfirmed = true

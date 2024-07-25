@@ -16,7 +16,7 @@ public class RegistrationRequest
 
     [Required]
     [MinLength(6)]
-    public string Username { get; set; }
+    public string UserName { get; set; }
 
     [Required]
     [MinLength(6)]
